@@ -1,0 +1,51 @@
+.Editor {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Header {
+  background: rgb(25, 25, 25);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Body {
+  background: rgb(94, 85, 85);
+  flex-grow: 1;
+  display: flex;
+}
+
+.Body-Left {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Body-Left-Top {
+  flex-grow: 1;
+  display: flex;
+}
+
+.HierarchyWindow {
+  width: 250px;
+}
+
+.SceneWindow {
+  flex-grow: 1;
+}
+
+.Body-Left-Bottom {
+  height: 300px;
+}
+
+.Body-Right {
+  width: 500px;
+}
+
+.Footer {
+  background: rgb(10, 10, 10);
+  height: 25px;
+}

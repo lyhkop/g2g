@@ -1,0 +1,27 @@
+{
+  "name": "gltf-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./decode_draco.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@gltf-transform/cli": "^3.8.0",
+    "@gltf-transform/core": "^3.8.0",
+    "@gltf-transform/extensions": "^3.8.0",
+    "@gltf-transform/functions": "^3.8.0",
+    "@types/draco3d": "^1.4.7",
+    "@types/draco3dgltf": "^1.4.2",
+    "@types/node": "^20.3.1",
+    "draco3dgltf": "^1.5.6",
+    "meshoptimizer": "^0.20.0",
+    "sharp": "^0.32.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "type": "module"
+}

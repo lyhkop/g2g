@@ -1,0 +1,35 @@
+.transformInput {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.label {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.inputGroup {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.transform-input__axis-label {
+  width: 20px;
+}
+
+input {
+  width: 0;
+  flex: 1;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
