@@ -61,8 +61,8 @@ function init() {
   composer.addPass(bloomPass);
   composer.addPass(outputPass);
 
-  composer.renderTarget1.samples = 4;
-  composer.renderTarget2.samples = 4;
+  // composer.renderTarget1.samples = 4;
+  // composer.renderTarget2.samples = 4;
   composer.setPixelRatio(window.devicePixelRatio);
 
   return {
